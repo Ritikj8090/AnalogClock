@@ -30,6 +30,9 @@ body {
 .deactivate{
   color: black;
 }
+.origintl{
+  transform-origin: 0 300px;
+}
 
 
 .text{

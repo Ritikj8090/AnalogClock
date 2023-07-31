@@ -23,7 +23,7 @@ export const Digits = () => {
       <div className="">
       {letters.map((ch, i) => {
         return(
-          <span id={`id${i}`} key={i} style={{transform: `rotate(${i*6}deg); transform-origin: 0 300px;`}} className=" absolute origintl ">{ch}</span>
+          <span id={`id${i}`} key={i} style={{transform: `rotate(${i*6}deg)`}} className=" absolute origintl ">{ch}</span>
         )
         
       })}
